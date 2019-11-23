@@ -1,1 +1,12 @@
-Waleed aslam
+Binary Search Algorithm
+def BinarySearch (dicList, l, r, z): 
+    if r >= l: 
+        mid = l + (r - l)//2 
+        if dicList[mid] == z: 
+            return mid 
+        elif dicList[mid] > z: 
+            return BinarySearch(dicList, l, mid-1, z) 
+        else: 
+            return BinarySearch(dicList, mid + 1, r, z) 
+    else: 
+        return -1
