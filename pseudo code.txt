@@ -26,3 +26,26 @@ Display value of a and b
 
 Stop
 
+
+Linear Regression is an algorithm based on supervised learning. It is an algorithm which
+based on the model to predict the target feature/value using independant variables. The most
+important using of this algorithm is to find out the relationship between variables and thier 
+forecasting. There are differnet regression model which predict the values using the 
+relationship between independent and dependent variables.
+Linear regression perform the prediction based on the dependent variable y and 
+given independent variable x. This regression method finds the linear relationship 
+betweeen input(X) and output(Y). Therefore it is called linear regression.
+
+Hypothesis function for Linear Regression
+Y=q1+q2X
+
+While training the model we are given with:
+X: input training data
+Y: labels to data
+
+When training the model it is the best line to fit so that to predict the value of y from 
+the given value of X
+q1: intercept
+q2: coefficient of X
+If we have the values of q1 and q2 our model predict the values of y from input value x.
+
