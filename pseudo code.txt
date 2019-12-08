@@ -1,5 +1,4 @@
 Start
-
 Read Number of Data (n)
 
 For i=1 to n:
@@ -26,3 +25,4 @@ Calculate Required Constant a and b of y = a + bx:
 Display value of a and b
 
 Stop
+
