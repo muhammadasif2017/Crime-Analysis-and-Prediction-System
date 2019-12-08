@@ -1,0 +1,28 @@
+Start
+
+Read Number of Data (n)
+
+For i=1 to n:
+   Read Xi and Yi
+   Next i
+
+Initialize:
+   sumX = 0
+   sumX2 = 0
+   sumY = 0
+   sumXY = 0
+
+Calculate Required Sum
+   For i=1 to n:
+     sumX = sumX + Xi
+     sumX2 = sumX2 + Xi * Xi
+     sumY = sumY + Yi
+     sumXY = sumXY + Xi * Yi
+   Next i
+
+Calculate Required Constant a and b of y = a + bx:
+   b = (n * sumXY - sumX * sumY)/(n*sumX2 - sumX * sumX)
+   a = (sumY - b*sumX)/n
+Display value of a and b
+
+Stop
